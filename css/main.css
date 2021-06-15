@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+   
+    background-color: mintcream;
+}
+h1{
+  
+    margin: 0;
+    font-family: Courier, monospace;
+    font-size: 3em;
+    line-height: 2em;
+    color: purple;
+}
+h2{
+    font-family: Courier, monospace;
+    font-size: 2em;
+    color: purple;
+}
+p{
+    font-family: Courier, monospace;
+    font-size: 1.3em;
+    color: purple;
+}
+li{
+    font-family: Courier, monospace;
+    font-size: 1em;
+    color: purple;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-family: Verdana, sans-serif;
+    font-size:medium;
+    color: aliceblue;
+    font-weight: bolder;
+}
+nav a:hover{
+    color: darkgray;
+}
+td img{
+    width: 120px;
+    height: 77px;
+}
+table{
+    margin-left: 50px;
+    padding-top: 30px;
+}
+iframe{
+   
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 10px;
+    width: 10%;
+}
+.header{
+    height: 600px;
+    background-image: url(../images/ilya-mashkov-_qxbJUr9RqI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.mainheading{
+    text-align: center;
+    padding-top: 200px;
+    color: aliceblue;
+    font-family:Verdana, sans-serif;
+    text-shadow:2px 2px  gray;
+    
+}
+.perfect{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    color: aliceblue;
+    padding: 20px;
+   /* position: fixed;*/
+}
+
+.headerFlexDiv{
+    display: flex;
+    flex-wrap: nowrap; 
+    border-spacing: 100px;
+}
+.discriptionMain{
+    left: auto;
+    right: auto;
+    margin-left:27%;
+    margin-right: 27%;
+    padding-bottom: 50px;
+}
+.discriptionText{
+    text-align: center;
+    width: 500px;
+    padding-left: 10%;
+   
+    
+}
+.ingredientMain{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 70px;
+   
+}
+.directionMain{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 70px;
+}
+.wrapper{
+    margin-top: 100px;
+    width: 500px; 
+    height: 500px;
+    margin-left: auto;    
+    margin-right: auto;
+}
+.wrapper h2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.footerEnd{
+    width: 100%;
+    height: 300px;
+    background-color:black;
+    margin-top: 70px;
+}
+#burgerBiteImage{
+    box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+    border-radius: 20px;
+    margin-right: 20px;
+   
+}
+#navigation{
+    padding-top: 20px;
+    margin-left: 700px;
+    right: 0%;
+}
+#ingredientimage{
+    width: 700px;
+    height: 410px;
+}
+#ingredientText{
+    width: 700px;
+    height: 410px;
+    background-color: black;
+    padding-right: 150px;
+    
+}
+#ingredientList{
+    list-style-type: none;
+}
+#ingredientHead{
+    padding-top: 20px;
+    font-family: Optima, sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: end;
+}
+#ingredientparagraph{
+    color: aliceblue;
+    font-family: Verdana, serif;
+    font-weight:100;
+    font-size: 1em;
+    text-align: end;
+    
+}
+#directionImage{
+    width: 652px;
+    height: 410px;
+    margin-top: -4px;
+}
+#directionTextDiv{
+    background-color: black;
+    margin-top: -4px;
+    width: 700px;
+    height: 410px;
+}
+#directionHead{
+    padding-top: 20px;
+    font-family: Optima, sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align:start;
+    padding-left: 50px;
+}
+#directionParagraph{
+    color: aliceblue;
+    font-family: Verdana, serif;
+    font-weight:100;
+    font-size: 1em;
+    text-align: start;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#logo{
+    width: 50px;
+    background-color:snow;
+    border-radius: 5px;
+    padding: 5px;
+}
+#youtubelogo{
+ display: flex;
+ justify-content: center;
+}
+#logo:hover{
+    background-color: slategray;
+}
+#copyrite{
+    padding-top: 70px;
+    text-align: center;
+    color: gray;
+}
+#discriptionheader{
+    font-family: Optima, sans-serif;
+    font-weight: lighter;
+    color:black;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+#discriptionParagraph{
+    color: black;
+    font-family: Verdana, serif;
+    font-weight:100;
+    font-size: 1em;
+    padding-bottom: 50px;
+   
+}
